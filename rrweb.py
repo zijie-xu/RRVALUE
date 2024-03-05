@@ -4,7 +4,8 @@ Created on Thu Jan 11 14:30:52 2024
 
 @author: zijie.xu
 """
-
+import sklearn
+from sklearn.ensemble import RandomForestRegressor  
 import streamlit as st
 import pandas as pd
 import numpy as np
